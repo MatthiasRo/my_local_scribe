@@ -1,0 +1,2 @@
+streamlit>=1.64,<2
+whisperx==3.8.6

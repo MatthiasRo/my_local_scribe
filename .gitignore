@@ -1,0 +1,58 @@
+# ---------------------------------------------------------------------------
+# Secrets: never commit these
+# ---------------------------------------------------------------------------
+hf_token.txt
+*token*.txt
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# ---------------------------------------------------------------------------
+# Recordings and transcripts: they may contain confidential data
+# ---------------------------------------------------------------------------
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.aac
+*.ogg
+*.mp4
+*.mov
+*.mkv
+*.webm
+
+*.srt
+*_transcript.txt
+*_transcript.json
+*_segments.csv
+*_words.csv
+*_transcription_bundle.zip
+
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# ---------------------------------------------------------------------------
+# Editors and operating systems
+# ---------------------------------------------------------------------------
+.vscode/
+.idea/
+.claude/
+.DS_Store
+Thumbs.db
+desktop.ini

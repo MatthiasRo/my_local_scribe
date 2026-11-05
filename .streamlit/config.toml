@@ -1,0 +1,17 @@
+# Streamlit reads this file when the app is started from the project folder.
+# Docs: https://docs.streamlit.io/develop/api-reference/configuration/config.toml
+
+[server]
+# Only accept connections from this computer. Streamlit's default also accepts
+# connections from other devices on the network, which is not what you want for
+# confidential recordings.
+address = "localhost"
+
+# Largest file you can upload, in megabytes. The default is 200.
+# Uncomment and raise this for long recordings or video files. The app holds the
+# whole file in memory while it runs, so stay well below your available RAM.
+# maxUploadSize = 2048
+
+[browser]
+# Do not send usage statistics to Streamlit.
+gatherUsageStats = false
